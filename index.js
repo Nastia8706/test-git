@@ -1,9 +1,8 @@
 console.log('Hello World!');
 
-let answer = prompt("Скільки буде 2 + 2?");
-
-if (answer === "4") {
-  alert("Правильно ✅");
+const age = 20;
+if (age <= 18) {
+  console.log('Ви повнолітній');
 } else {
-  alert("Неправильно ❌");
+  console.log('Ви НЕ повнолітній');
 };
